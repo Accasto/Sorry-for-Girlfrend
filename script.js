@@ -4,16 +4,16 @@ const LETTER =
 
 const REASONS = [
   { icon: '✨', title: 'Você ilumina tudo',    text: 'Com você, até os dias mais cinzas viram cor. Sua presença transforma tudo ao redor.' },
-  { icon: '🤝', title: 'Minha companheira',    text: 'Minha melhor amiga, meu lar. A pessoa com quem quero dividir cada momento da vida.' },
-  { icon: '😂', title: 'Aquele riso',          text: 'O seu riso é literalmente a coisa mais bonita que já ouvi. Faço tudo pra ouvir de novo.' },
-  { icon: '🌙', title: 'Em todo momento',      text: 'Amo você de manhã, de tarde, de noite — especialmente nos momentos difíceis como este.' },
+  { icon: '🤝', title: 'Ajuda e gosto muito muito',    text: 'Alguém que eu gosto bastantão rsrs' },
+  { icon: '😂', title: 'Seu sorrisão',          text: 'O seu sorriso é literalmente a coisa mais bonita que já vi' },
+  { icon: '🌙', title: 'Em todo momento',      text: 'Todo momento com vc não é um momento, é uma oportunidade de termos mais confiança e conforto' },
 ];
 
 const PROMISES = [
   { icon: '👂', title: 'Escutar mais',        desc: 'Vou ouvir de verdade, sem me defender primeiro. Sua voz importa mais do que aparento.' },
-  { icon: '🫂', title: 'Estar presente',      desc: 'Presente de corpo e alma — não só fisicamente. Emocionalmente também.' },
+  { icon: '🫂', title: 'Estar presente',      desc: 'Presente de corpo e alma, não só fisicamente. Emocionalmente também sempre nas conversas sérias.' },
   { icon: '💬', title: 'Comunicar sempre',    desc: 'Nunca mais deixar o silêncio falar por mim. Você merece clareza e honestidade.' },
-  { icon: '🌹', title: 'Não te decepcionar', desc: 'Esse erro não vai se repetir. Isso é compromisso, não promessa vazia.' },
+  { icon: '🌹', title: 'Não te decepcionar', desc: 'Esse erro não vai se repetiiiiiir' },
 ];
 
 const R  = (a, b) => Math.random() * (b - a) + a;
