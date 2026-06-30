@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Me perdoa, meu amor? 🌹</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ══ INTRO ══ -->
+    <div id="intro">
+      <div class="intro-inner">
+        <div class="emoji-gif" aria-hidden="true">🌹</div>
+        <p class="intro-label">preparando algo especial…</p>
+        <div class="intro-bar"><div class="intro-fill"></div></div>
+      </div>
+    </div>
+
+    <!-- ══ FUNDO ══ -->
+    <canvas id="petals" aria-hidden="true"></canvas>
+    <div id="bg-hearts" aria-hidden="true"></div>
+
+    <main class="wrap">
+      <!-- HERO -->
+      <section class="hero js-reveal">
+        <p class="eyebrow">✦ uma mensagem do coração ✦</p>
+
+        <div class="hero-rose-wrap">
+          <div class="halo h1"></div>
+          <div class="halo h2"></div>
+          <div class="halo h3"></div>
+          <div class="rose-inner">
+            <div class="emoji-gif" aria-hidden="true">🌹</div>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Me perdoa,<br /><span class="title-em">meu amor?</span>
+        </h1>
+        <p class="hero-sub">com todo o meu coração</p>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- CARTA -->
+      <section class="section js-reveal">
+        <p class="section-eyebrow">✦ do fundo da minha alma ✦</p>
+        <h2 class="section-title">Uma carta pra você</h2>
+        <div class="letter-card">
+          <div class="letter-ruled" aria-hidden="true"></div>
+          <p class="letter-salute">Para você,</p>
+<p class="letter-body">
+            <span id="typed-text"></span><span class="type-cursor" id="cursor">|</span>
+          </p>
+          <div class="letter-footer">
+            <span class="letter-sig">Com amor infinito ♡</span>
+            <div class="letter-seal">
+              <div class="emoji-seal" aria-hidden="true">♡</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GIF 1 -->
+      <div class="gif-break js-reveal">
+        <div class="gif-frame">
+          <div class="emoji-bbreak" aria-hidden="true">🧸</div>
+        </div>
+        <p class="gif-caption">"eu sem você"</p>
+      </div>
+
+      <!-- RAZÕES -->
+      <section class="section js-reveal">
+        <p class="section-eyebrow">✦ tudo que você é pra mim ✦</p>
+        <h2 class="section-title">Por que você é<br />tudo pra mim</h2>
+        <div class="reasons-grid" id="reasons-grid"></div>
+      </section>
+
+      <!-- GIF 2 -->
+      <div class="gif-break js-reveal">
+        <div class="gif-frame">
+          <div class="emoji-bbreak" aria-hidden="true">💖</div>
+        </div>
+        <p class="gif-caption">"como eu me sinto com você"</p>
+      </div>
+
+      <!-- PROMESSAS -->
+      <section class="section js-reveal">
+        <p class="section-eyebrow">✦ compromisso ✦</p>
+        <h2 class="section-title">O que eu prometo</h2>
+        <ul class="promise-list" id="promise-list"></ul>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section js-reveal">
+        <div class="emoji-cta" aria-hidden="true">🐱</div>
+        <p class="cta-note">
+          não é obrigação — mas seria o presente mais lindo que você poderia me
+          dar 🥺
+        </p>
+        <div class="btn-wrap">
+          <div class="btn-aura"></div>
+          <button class="btn-main" id="btn-perdoa">🥺 Você me perdoa?</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- ══ MODAL ══ -->
+    <div id="overlay" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal">
+        <div class="emoji-modal" aria-hidden="true">💞</div>
+        <h2 class="modal-title">
+          Eu sabia que você era a<br /><em>melhor pessoa do mundo!</em>
+        </h2>
+        <p class="modal-body">
+          Te amo muito, muito mesmo. Obrigada por ser tão incrível — e por me
+          dar mais uma chance de ser a pessoa que você merece. 🌹
+        </p>
+        <p class="modal-sig">Para sempre seu ♡</p>
+        <button class="btn-close" id="btn-close">fechar</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
