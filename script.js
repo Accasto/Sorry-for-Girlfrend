@@ -1,6 +1,6 @@
 // ── DATA ──────────────────────────────────────────────────────────────────────
 const LETTER =
-  'Eu sei que errei, e me arrependo de verdade. Não existe palavra que apague o que aconteceu — mas existe um coração que te ama com tudo, que pensou em você desde que acordou, e que queria tanto ter agido diferente. Você merece o melhor de mim, e é isso que prometo entregar todos os dias.';
+  'Eu sei que não estamos muito bem, e espero que as coisas melhorem de verdade. Não existe palavras que mostre o quanto eu desejo que as coisas se tornem mais leves daqui pra frente. Existe uma vontade em mim que é de não desistir tão fácil (mesmo que eu fique sem paciência as vezes kkkkkkkkkk), e de me esforçar pra que a gente se entenda melhor. Eu sei que a confiança não vai voltar assim do nada, mas vou fazer o máximo EM ATITUDES E EM PALAVRAS (fiquei mal qnd vc falou q nem faz mais questão 😢)';
 
 const REASONS = [
   { icon: '✨', title: 'Você ilumina tudo',    text: 'Com você, até os dias mais cinzas viram cor. Sua presença transforma tudo ao redor.' },
